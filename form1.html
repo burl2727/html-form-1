@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Form1</title>
+    </head>
+    <body>
+        <h1>Hello, Forms!</h1>
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Add teacher</legend>
+
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email_address">
+                </div>
+
+                <div>
+                    <label for="status">status</label>
+                    <select id="status" name="user_status">
+                        <option value="student">student</option>
+                        <option value="teacher">teacher</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p> Choose your favorite programming langauge</p>
+                    <button type="radio">HTML</button>
+                    <button type="radio">CSS</button>
+                    <button type="radio">JavaScript</button>
+                </div>
+
+                <div>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+
+                <div>
+                    <label for="date">Current Date</label>
+                    <input type="date" id="current_date" name="current_date">
+                </div>
+
+                <div>
+                    <label for="newsletter">Sign up for Newsletter</label>
+                    <input type="checkbox" id="newsletter">
+                </div>
+
+                <div>
+                    <label for="agree">Agree to terms and conditions</label>
+                    <input type="checkbox" id="agree">
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
